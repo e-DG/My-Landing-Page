@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #FEB941;
+}
+
+.reviews {
+    background-color: #FDE49E;
+}
