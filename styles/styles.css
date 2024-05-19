@@ -2,10 +2,82 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 header, footer {
-    background-color: #FEB941;
+    background-color: #6DC5D1;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px 300px 75px;
+    color: white;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.intro-btn {
+    background-color: #DD761C;
+    border: none;
+    color: white;
+    width: auto;
+    height: 35px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: 900;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    align-items: baseline;
+    width: 500px;
+    gap: 15px;
+}
+
+.intro-text p {
+    font-size: 18px;
+}
+
+.intro-img {
+    width: 600px;
+    height: 200px;
+    flex-grow: 0;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
 }
 
 .reviews {
