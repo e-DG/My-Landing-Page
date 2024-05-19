@@ -57,6 +57,7 @@ legend {
 .customer {
     font-size: 22px;
     font-weight: 700;
+    align-self: flex-end;
 }
 
 .intro {
@@ -112,6 +113,7 @@ legend {
     justify-content: center;
     gap: 75px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .product {
@@ -136,6 +138,18 @@ legend {
 
 .reviews {
     background-color: #FDE49E;
-    padding: 160px 400px;
+    padding: 100px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
