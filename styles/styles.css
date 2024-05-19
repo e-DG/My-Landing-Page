@@ -33,6 +33,11 @@ h3 {
     color: darkcyan;
 }
 
+legend {
+    font-size: 18px;
+    width: 170px;
+}
+
 #logo {
     font-size: 24px;
     font-weight: bold;
@@ -45,8 +50,13 @@ h3 {
     gap: 50px;
     align-items: center;
     justify-content: space-between;
-    padding: 75px 300px;
+    padding: 85px 300px;
     color: darkcyan;
+}
+
+.customer {
+    font-size: 22px;
+    font-weight: 700;
 }
 
 .intro {
@@ -109,18 +119,23 @@ h3 {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-    align-items: center;
-    width: 160px;
-    text-align: center;
+    align-items: center;  
 }
 
 .product-img {
-    width: 150px;
+    width: 160px;
     height: auto;
     border: 5px solid #DD761C;
     border-radius: 7px;
 }
 
+.quote {
+    font-size: 32px;
+    font-style: italic;
+}
+
 .reviews {
     background-color: #FDE49E;
+    padding: 160px 400px;
 }
+
