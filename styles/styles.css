@@ -17,8 +17,8 @@ header, footer {
 header {
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    padding: 20px 300px 75px;
+    gap: 75px;
+    padding: 20px 250px 75px;
     color: white;
 }
 
@@ -27,9 +27,26 @@ h1 {
     font-size: 48px;
 }
 
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: darkcyan;
+}
+
 #logo {
     font-size: 24px;
     font-weight: bold;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 75px 300px;
+    color: darkcyan;
 }
 
 .intro {
@@ -45,8 +62,8 @@ h1 {
     color: white;
     width: auto;
     height: 35px;
-    padding: 5px 10px;
-    border-radius: 12px;
+    padding: 0px 15px;
+    border-radius: 7px;
     font-weight: 900;
 }
 
@@ -78,6 +95,30 @@ h1 {
 .navbar {
     display: flex;
     justify-content: space-between;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    align-items: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    text-align: center;
+}
+
+.product-img {
+    width: 150px;
+    height: auto;
+    border: 5px solid #DD761C;
+    border-radius: 7px;
 }
 
 .reviews {
