@@ -8,17 +8,25 @@
 a {
     text-decoration: none;
     color: white;
+    font-weight: 600;
 }
 
 header, footer {
     background-color: #6DC5D1;
 }
 
+footer{
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+    font-weight: 500;
+}
+
 header {
     display: flex;
     flex-direction: column;
-    gap: 75px;
-    padding: 20px 250px 75px;
+    gap: 100px;
+    padding: 20px 400px 120px;
     color: white;
 }
 
@@ -35,12 +43,49 @@ h3 {
 
 legend {
     font-size: 18px;
-    width: 170px;
+    width: 190px;
 }
 
-#logo {
+#logo, h4 {
     font-size: 24px;
     font-weight: bold;
+}
+
+.contact {
+padding: 85px 450px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.contact-form {
+    background-color: #DD761C;
+    border-radius: 12px;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 150px;
+}
+
+.contact-info {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.contact button {
+    background-color: #DD761C;
+    border: 2px solid white;
+    border-radius: 7px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    font-weight: 900;
+    color: white;
+    width: auto;
+    height: fit-content;
+    padding: 10px 20px;
+    align-self: center;
 }
 
 .content {
@@ -63,7 +108,7 @@ legend {
 .intro {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 50px;
 }
 
@@ -94,24 +139,26 @@ legend {
 
 .intro-img {
     width: 600px;
-    height: 200px;
+    height: 260px;
     flex-grow: 0;
+    border: 2px solid white;
 }
 
 .links {
     display: flex;
     gap: 20px;
+    margin-left: auto;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .products {
     display: flex;
     justify-content: center;
-    gap: 75px;
+    gap: 50px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -125,7 +172,7 @@ legend {
 }
 
 .product-img {
-    width: 160px;
+    width: 180px;
     height: auto;
     border: 5px solid #DD761C;
     border-radius: 7px;
